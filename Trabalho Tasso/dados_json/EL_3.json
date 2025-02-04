@@ -1,0 +1,226 @@
+[
+    {
+        "name": "CENTRO OFTALMOLOGICO DE MINAS GERAIS",
+        "id": "16 CENTRO OFTALMOLOGICO DE MINAS GERAIS",
+        "location": "POINT (-43.9436227 -19.9218337)",
+        "latitude": -19.9218337,
+        "longitude": -43.9436227,
+        "type": "07 HOSPITAL ESPECIALIZADO"
+    },
+    {
+        "name": "ASSOCIACAO MARIO PENNA",
+        "id": "32 ASSOCIACAO MARIO PENNA",
+        "location": "POINT (-43.95855 -19.95058)",
+        "latitude": -19.95058,
+        "longitude": -43.95855,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "HOSPITAL SOFIA FELDMAN",
+        "id": "37 HOSPITAL SOFIA FELDMAN",
+        "location": "POINT (-43.914946281420285 -19.83614695)",
+        "latitude": -19.83614695,
+        "longitude": -43.91494628142028,
+        "type": "07 HOSPITAL ESPECIALIZADO"
+    },
+    {
+        "name": "HOSPITAL RISOLETA TOLENTINO NEVES",
+        "id": "37 HOSPITAL RISOLETA TOLENTINO NEVES",
+        "location": "POINT (-43.94853115081787 -19.817542246948534)",
+        "latitude": -19.81754224694853,
+        "longitude": -43.94853115081787,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "HOSPITAL METROPOLITANO ODILON BEHRENS HOB",
+        "id": "36 HOSPITAL METROPOLITANO ODILON BEHRENS HOB",
+        "location": "POINT (-43.9456041 -19.9046037)",
+        "latitude": -19.9046037,
+        "longitude": -43.9456041,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "HOSPITAL FELICIO ROCHO",
+        "id": "3 HOSPITAL FELICIO ROCHO",
+        "location": "POINT (-43.95754337310791 -19.922993767557013)",
+        "latitude": -19.92299376755701,
+        "longitude": -43.95754337310791,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "COMPLEXO HOSPITALAR SAO FRANCISCO",
+        "id": "17 COMPLEXO HOSPITALAR SAO FRANCISCO",
+        "location": "POINT (-43.9334811014647 -19.900640152069414)",
+        "latitude": -19.90064015206941,
+        "longitude": -43.9334811014647,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "HOSPITAL JOAO XXIII",
+        "id": "14 HOSPITAL JOAO XXIII",
+        "location": "POINT (-43.9321649 -19.9270424)",
+        "latitude": -19.9270424,
+        "longitude": -43.9321649,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "HOSP DAS CLINICAS DA UNIV FED DE MINAS GERAIS EBSERH",
+        "id": "29 HOSP DAS CLINICAS DA UNIV FED DE MINAS GERAIS EBSERH",
+        "location": "POINT (-43.9292778 -19.9253417)",
+        "latitude": -19.9253417,
+        "longitude": -43.9292778,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "HOSPITAL MADRE TERESA",
+        "id": "14 HOSPITAL MADRE TERESA",
+        "location": "POINT (-43.926453 -19.937524)",
+        "latitude": -19.937524,
+        "longitude": -43.926453,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "LIFECENTER SISTEMA DE SAUDE S A",
+        "id": "31 LIFECENTER SISTEMA DE SAUDE S A",
+        "location": "POINT (-43.92459077722939 -19.93496235976998)",
+        "latitude": -19.93496235976998,
+        "longitude": -43.92459077722939,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "OCULARE CENTRO DE OFTALMOLOGIA",
+        "id": "16 OCULARE CENTRO DE OFTALMOLOGIA",
+        "location": "POINT (-43.92420556188698 -19.927282804139143)",
+        "latitude": -19.92728280413914,
+        "longitude": -43.92420556188698,
+        "type": "62 HOSPITAL/DIA - ISOLADO"
+    },
+    {
+        "name": "SANTA CASA DE BELO HORIZONTE",
+        "id": "39 SANTA CASA DE BELO HORIZONTE",
+        "location": "POINT (-43.9542 -19.8157)",
+        "latitude": -19.8157,
+        "longitude": -43.9542,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "HOSPITAL MATERMED",
+        "id": "8 HOSPITAL MATERMED",
+        "location": "POINT (-43.92532467842102 -19.92770924386442)",
+        "latitude": -19.92770924386442,
+        "longitude": -43.92532467842102,
+        "type": "62 HOSPITAL/DIA - ISOLADO"
+    },
+    {
+        "name": "HOSPITAL METROPOLITANO DOUTOR CELIO DE CASTRO HMDCC",
+        "id": "29 HOSPITAL METROPOLITANO DOUTOR CELIO DE CASTRO HMDCC",
+        "location": "POINT (-43.99333477020264 -19.997144082089157)",
+        "latitude": -19.99714408208916,
+        "longitude": -43.99333477020264,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "IMOL INSTITUTO MINEIRO DE OLHOS",
+        "id": "22 IMOL INSTITUTO MINEIRO DE OLHOS",
+        "location": "POINT (-43.924823105335236 -19.93507973059874)",
+        "latitude": -19.93507973059874,
+        "longitude": -43.92482310533524,
+        "type": "62 HOSPITAL/DIA - ISOLADO"
+    },
+    {
+        "name": "HOSPITAL DA BALEIA",
+        "id": "32 HOSPITAL DA BALEIA",
+        "location": "POINT (-43.897992 -19.926893)",
+        "latitude": -19.926893,
+        "longitude": -43.897992,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "BIOCOR INSTITUTO",
+        "id": "43 BIOCOR INSTITUTO",
+        "location": "POINT (-43.94527763 -19.98109273)",
+        "latitude": -19.98109273,
+        "longitude": -43.94527763,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "HOSPITAL INFANTIL PADRE ANCHIETA",
+        "id": "25 HOSPITAL INFANTIL PADRE ANCHIETA",
+        "location": "POINT (-43.9579188945421 -19.878845480281566)",
+        "latitude": -19.87884548028157,
+        "longitude": -43.9579188945421,
+        "type": "07 HOSPITAL ESPECIALIZADO"
+    },
+    {
+        "name": "NUCLEO OFTALMOLOGICO",
+        "id": "25 NUCLEO OFTALMOLOGICO",
+        "location": "POINT (-43.9286112433532 -19.9296286413479)",
+        "latitude": -19.9296286413479,
+        "longitude": -43.9286112433532,
+        "type": "07 HOSPITAL ESPECIALIZADO"
+    },
+    {
+        "name": "SOCOR",
+        "id": "10 SOCOR",
+        "location": "POINT (-43.95183563232422 -19.917859538216252)",
+        "latitude": -19.91785953821625,
+        "longitude": -43.95183563232422,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "CTC SAO LUCAS",
+        "id": "22 CTC SAO LUCAS",
+        "location": "POINT (-43.92666 -19.92509)",
+        "latitude": -19.92509,
+        "longitude": -43.92666,
+        "type": "62 HOSPITAL/DIA - ISOLADO"
+    },
+    {
+        "name": "HOSPITAL UNIVERSITARIO CIENCIAS MEDICAS",
+        "id": "5 HOSPITAL UNIVERSITARIO CIENCIAS MEDICAS",
+        "location": "POINT (-43.9507373 -19.9250977)",
+        "latitude": -19.9250977,
+        "longitude": -43.9507373,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "CLINICA DE TRANSICAO PAULO DE TARSO",
+        "id": "16 CLINICA DE TRANSICAO PAULO DE TARSO",
+        "location": "POINT (-43.95153522491455 -19.86961587277236)",
+        "latitude": -19.86961587277236,
+        "longitude": -43.95153522491455,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "INSTITUTO RAUL SOARES",
+        "id": "18 INSTITUTO RAUL SOARES",
+        "location": "POINT (-43.9389298 -19.9122886)",
+        "latitude": -19.9122886,
+        "longitude": -43.9389298,
+        "type": "07 HOSPITAL ESPECIALIZADO"
+    },
+    {
+        "name": "HOSPITAL ALBERTO CAVALCANTI",
+        "id": "41 HOSPITAL ALBERTO CAVALCANTI",
+        "location": "POINT (-43.98924345800843 -19.91148526864942)",
+        "latitude": -19.91148526864942,
+        "longitude": -43.98924345800843,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "HOSPITAL EVANGELICO DE BELO HORIZONTE",
+        "id": "20 HOSPITAL EVANGELICO DE BELO HORIZONTE",
+        "location": "POINT (-43.9128421 -19.9399314)",
+        "latitude": -19.9399314,
+        "longitude": -43.9128421,
+        "type": "05 HOSPITAL GERAL"
+    },
+    {
+        "name": "HOSPITAL EDUARDO DE MENEZES",
+        "id": "16 HOSPITAL EDUARDO DE MENEZES",
+        "location": "POINT (-43.986751 -19.986856)",
+        "latitude": -19.986856,
+        "longitude": -43.986751,
+        "type": "05 HOSPITAL GERAL"
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "name": "UNIDADE DE PRONTO ATENDIMENTO NORTE",
+        "id": "16 UNIDADE DE PRONTO ATENDIMENTO NORTE",
+        "location": "POINT (-43.9272101 -19.8631172)",
+        "latitude": -19.8631172,
+        "longitude": -43.9272101,
+        "type": "73 PRONTO ATENDIMENTO"
+    },
+    {
+        "name": "UNIDADE DE PRONTO ATENDIMENTO NOROESTE II HOB",
+        "id": "8 UNIDADE DE PRONTO ATENDIMENTO NOROESTE II HOB",
+        "location": "POINT (-43.955934047698975 -19.81699720012761)",
+        "latitude": -19.81699720012761,
+        "longitude": -43.95593404769897,
+        "type": "73 PRONTO ATENDIMENTO"
+    },
+    {
+        "name": "UNIDADE DE PRONTO ATENDIMENTO NORDESTE",
+        "id": "8 UNIDADE DE PRONTO ATENDIMENTO NORDESTE",
+        "location": "POINT (-43.9253933 -19.8672698)",
+        "latitude": -19.8672698,
+        "longitude": -43.9253933,
+        "type": "73 PRONTO ATENDIMENTO"
+    },
+    {
+        "name": "UNIDADE DE PRONTO ATENDIMENTO LESTE",
+        "id": "8 UNIDADE DE PRONTO ATENDIMENTO LESTE",
+        "location": "POINT (-43.9343731 -19.9211945)",
+        "latitude": -19.9211945,
+        "longitude": -43.9343731,
+        "type": "73 PRONTO ATENDIMENTO"
+    },
+    {
+        "name": "UNIDADE DE PRONTO ATENDIMENTO BARREIRO",
+        "id": "12 UNIDADE DE PRONTO ATENDIMENTO BARREIRO",
+        "location": "POINT (-44.0202838 -19.9958793)",
+        "latitude": -19.9958793,
+        "longitude": -44.0202838,
+        "type": "73 PRONTO ATENDIMENTO"
+    },
+    {
+        "name": "UNIDADE DE REFERENCIA SECUNDARIA PADRE EUSTAQUIO",
+        "id": "29 UNIDADE DE REFERENCIA SECUNDARIA PADRE EUSTAQUIO",
+        "location": "POINT (-43.9765249 -19.9150156)",
+        "latitude": -19.9150156,
+        "longitude": -43.9765249,
+        "type": "04 POLICLINICA"
+    },
+    {
+        "name": "UNIDADE DE PRONTO ATENDIMENTO PAMPULHA",
+        "id": "14 UNIDADE DE PRONTO ATENDIMENTO PAMPULHA",
+        "location": "POINT (-44.001091718673706 -19.87062488279604)",
+        "latitude": -19.87062488279604,
+        "longitude": -44.00109171867371,
+        "type": "73 PRONTO ATENDIMENTO"
+    },
+    {
+        "name": "UNIDADE DE PRONTO ATENDIMENTO CENTRO SUL",
+        "id": "42 UNIDADE DE PRONTO ATENDIMENTO CENTRO SUL",
+        "location": "POINT (-43.92535150051117 -19.922050655414765)",
+        "latitude": -19.92205065541476,
+        "longitude": -43.92535150051117,
+        "type": "73 PRONTO ATENDIMENTO"
+    },
+    {
+        "name": "UNIDADE DE PRONTO ATENDIMENTO VENDA NOVA",
+        "id": "41 UNIDADE DE PRONTO ATENDIMENTO VENDA NOVA",
+        "location": "POINT (-43.9897132 -19.8033279)",
+        "latitude": -19.8033279,
+        "longitude": -43.9897132,
+        "type": "73 PRONTO ATENDIMENTO"
+    },
+    {
+        "name": "UNIDADE DE PRONTO ATENDIMENTO OESTE",
+        "id": "5 UNIDADE DE PRONTO ATENDIMENTO OESTE",
+        "location": "POINT (-43.967504 -19.9524934)",
+        "latitude": -19.9524934,
+        "longitude": -43.967504,
+        "type": "73 PRONTO ATENDIMENTO"
+    },
+    {
+        "name": "UNIDADE DE REFERENCIA SECUNDARIA SAUDADE",
+        "id": "21 UNIDADE DE REFERENCIA SECUNDARIA SAUDADE",
+        "location": "POINT (-43.9058568 -19.9039653)",
+        "latitude": -19.9039653,
+        "longitude": -43.9058568,
+        "type": "04 POLICLINICA"
+    },
+    {
+        "name": "UNIDADE DE REFERENCIA SECUNDARIA CAMPOS SALES",
+        "id": "18 UNIDADE DE REFERENCIA SECUNDARIA CAMPOS SALES",
+        "location": "POINT (-43.97771090269089 -19.92743438841139)",
+        "latitude": -19.92743438841139,
+        "longitude": -43.97771090269089,
+        "type": "04 POLICLINICA"
+    },
+    {
+        "name": "UNIDADE DE REFERENCIA SECUNDARIA SAGRADA FAMILIA",
+        "id": "22 UNIDADE DE REFERENCIA SECUNDARIA SAGRADA FAMILIA",
+        "location": "POINT (-43.9275903 -19.9074299)",
+        "latitude": -19.9074299,
+        "longitude": -43.9275903,
+        "type": "04 POLICLINICA"
+    },
+    {
+        "name": "UNIDADE DE REFERENCIA SECUNDARIA CENTRO SUL",
+        "id": "25 UNIDADE DE REFERENCIA SECUNDARIA CENTRO SUL",
+        "location": "POINT (-43.93303871154785 -19.934300588314766)",
+        "latitude": -19.93430058831477,
+        "longitude": -43.93303871154785,
+        "type": "04 POLICLINICA"
+    },
+    {
+        "name": "CENTRO DE TESTAGEM E ACONSELHAMENTO HIPERCENTRO",
+        "id": "26 CENTRO DE TESTAGEM E ACONSELHAMENTO HIPERCENTRO",
+        "location": "POINT (-43.9406824 -19.9160114)",
+        "latitude": -19.9160114,
+        "longitude": -43.9406824,
+        "type": "04 POLICLINICA"
+    }
+]

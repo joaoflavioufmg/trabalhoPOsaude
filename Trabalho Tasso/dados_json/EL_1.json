@@ -1,0 +1,1290 @@
+[
+    {
+        "name": "CENTRO DE SAUDE CALIFORNIA",
+        "id": "22 CENTRO DE SAUDE CALIFORNIA",
+        "location": "POINT (-44.008252 -19.9231347)",
+        "latitude": -19.9231347,
+        "longitude": -44.008252,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SANTOS ANJOS",
+        "id": "18 CENTRO DE SAUDE SANTOS ANJOS",
+        "location": "POINT (-43.9819181 -19.9575511)",
+        "latitude": -19.9575511,
+        "longitude": -43.9819181,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE TUPI",
+        "id": "29 CENTRO DE SAUDE TUPI",
+        "location": "POINT (-43.92263988787012 -19.835778241625604)",
+        "latitude": -19.8357782416256,
+        "longitude": -43.92263988787012,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE JARDIM LEBLON",
+        "id": "23 CENTRO DE SAUDE JARDIM LEBLON",
+        "location": "POINT (-43.9863408 -19.8254968)",
+        "latitude": -19.8254968,
+        "longitude": -43.9863408,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE ANDRADAS",
+        "id": "27 CENTRO DE SAUDE ANDRADAS",
+        "location": "POINT (-43.9631735474125 -19.8202061)",
+        "latitude": -19.8202061,
+        "longitude": -43.9631735474125,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PALMEIRAS",
+        "id": "17 CENTRO DE SAUDE PALMEIRAS",
+        "location": "POINT (-43.9796796 -19.9707419)",
+        "latitude": -19.9707419,
+        "longitude": -43.9796796,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "MATERNIDADE ODETE VALADARES",
+        "id": "19 MATERNIDADE ODETE VALADARES",
+        "location": "POINT (-43.5722 -19.491)",
+        "latitude": -19.491,
+        "longitude": -43.5722,
+        "type": "07 HOSPITAL ESPECIALIZADO"
+    },
+    {
+        "name": "CENTRO DE SAUDE CACHOEIRINHA",
+        "id": "15 CENTRO DE SAUDE CACHOEIRINHA",
+        "location": "POINT (-43.9429063 -19.8936534)",
+        "latitude": -19.8936534,
+        "longitude": -43.9429063,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SANTA CECILIA",
+        "id": "23 CENTRO DE SAUDE SANTA CECILIA",
+        "location": "POINT (-44.0336065 -19.9998662)",
+        "latitude": -19.9998662,
+        "longitude": -44.0336065,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SANTA ROSA",
+        "id": "25 CENTRO DE SAUDE SANTA ROSA",
+        "location": "POINT (-43.9434741 -19.8667124)",
+        "latitude": -19.8667124,
+        "longitude": -43.9434741,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PARAUNA",
+        "id": "16 CENTRO DE SAUDE PARAUNA",
+        "location": "POINT (-43.9859121 -19.8033547)",
+        "latitude": -19.8033547,
+        "longitude": -43.9859121,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE GOIANIA",
+        "id": "29 CENTRO DE SAUDE GOIANIA",
+        "location": "POINT (-43.89782847494131 -19.86359135)",
+        "latitude": -19.86359135,
+        "longitude": -43.89782847494131,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE ALTO VERA CRUZ",
+        "id": "23 CENTRO DE SAUDE ALTO VERA CRUZ",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE DR JOSE DOMINGOS",
+        "id": "18 CENTRO DE SAUDE DR JOSE DOMINGOS",
+        "location": "POINT (-44.0030417 -19.9634213)",
+        "latitude": -19.9634213,
+        "longitude": -44.0030417,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PROVIDENCIA",
+        "id": "17 CENTRO DE SAUDE PROVIDENCIA",
+        "location": "POINT (-43.9744741 -19.9507673)",
+        "latitude": -19.9507673,
+        "longitude": -43.9744741,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE AARAO REIS",
+        "id": "27 CENTRO DE SAUDE AARAO REIS",
+        "location": "POINT (-43.9209177 -19.8459163)",
+        "latitude": -19.8459163,
+        "longitude": -43.9209177,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO SOCIOEDUCATIVO LINDEIA",
+        "id": "25 CENTRO SOCIOEDUCATIVO LINDEIA",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PINDORAMA ELZA MARTINS",
+        "id": "17 CENTRO DE SAUDE PINDORAMA ELZA MARTINS",
+        "location": "POINT (-44.0215812 -19.9089129)",
+        "latitude": -19.9089129,
+        "longitude": -44.0215812,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SAO GERALDO",
+        "id": "18 CENTRO DE SAUDE SAO GERALDO",
+        "location": "POINT (-43.9039175 -19.8986752)",
+        "latitude": -19.8986752,
+        "longitude": -43.9039175,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SAO JOSE",
+        "id": "26 CENTRO DE SAUDE SAO JOSE",
+        "location": "POINT (-44.002137 -19.8996717)",
+        "latitude": -19.8996717,
+        "longitude": -44.002137,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SAO MIGUEL ARCANJO",
+        "id": "17 CENTRO DE SAUDE SAO MIGUEL ARCANJO",
+        "location": "POINT (-43.923602901801836 -19.73390175)",
+        "latitude": -19.73390175,
+        "longitude": -43.92360290180184,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE OLAVO ALBINO CORREIA",
+        "id": "23 CENTRO DE SAUDE OLAVO ALBINO CORREIA",
+        "location": "POINT (-43.905585 -19.8477438)",
+        "latitude": -19.8477438,
+        "longitude": -43.905585,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SANTA MONICA",
+        "id": "17 CENTRO DE SAUDE SANTA MONICA",
+        "location": "POINT (-43.9768284 -19.8298541)",
+        "latitude": -19.8298541,
+        "longitude": -43.9768284,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE ERMELINDA",
+        "id": "18 CENTRO DE SAUDE ERMELINDA",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE ETELVINA CARNEIRO",
+        "id": "26 CENTRO DE SAUDE ETELVINA CARNEIRO",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PRIMEIRO DE MAIO",
+        "id": "15 CENTRO DE SAUDE PRIMEIRO DE MAIO",
+        "location": "POINT (-43.9276939 -19.8610967)",
+        "latitude": -19.8610967,
+        "longitude": -43.9276939,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SAO BERNARDO",
+        "id": "26 CENTRO DE SAUDE SAO BERNARDO",
+        "location": "POINT (-43.93839090216198 -19.84779739034897)",
+        "latitude": -19.84779739034897,
+        "longitude": -43.93839090216198,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PADRE TARCISIO",
+        "id": "29 CENTRO DE SAUDE PADRE TARCISIO",
+        "location": "POINT (-43.9450948 -19.9227318)",
+        "latitude": -19.9227318,
+        "longitude": -43.9450948,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE VENTOSA",
+        "id": "29 CENTRO DE SAUDE VENTOSA",
+        "location": "POINT (-43.9778028 -19.9401976)",
+        "latitude": -19.9401976,
+        "longitude": -43.9778028,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE ALCIDES LINS",
+        "id": "29 CENTRO DE SAUDE ALCIDES LINS",
+        "location": "POINT (-43.9372235 -19.892909)",
+        "latitude": -19.892909,
+        "longitude": -43.9372235,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SERRA VERDE",
+        "id": "18 CENTRO DE SAUDE SERRA VERDE",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE URUCUIA",
+        "id": "18 CENTRO DE SAUDE URUCUIA",
+        "location": "POINT (-44.0063337 -20.0089638)",
+        "latitude": -20.0089638,
+        "longitude": -44.0063337,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SAO JORGE",
+        "id": "18 CENTRO DE SAUDE SAO JORGE",
+        "location": "POINT (-43.9613222 -19.9364995)",
+        "latitude": -19.9364995,
+        "longitude": -43.9613222,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CAFEZAL",
+        "id": "23 CENTRO DE SAUDE CAFEZAL",
+        "location": "POINT (-43.9825546 -19.918777)",
+        "latitude": -19.918777,
+        "longitude": -43.9825546,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE TAQUARIL",
+        "id": "26 CENTRO DE SAUDE TAQUARIL",
+        "location": "POINT (-43.885181 -19.9206874)",
+        "latitude": -19.9206874,
+        "longitude": -43.885181,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PILAR OLHOS DAGUA",
+        "id": "26 CENTRO DE SAUDE PILAR OLHOS DAGUA",
+        "location": "POINT (-43.966766 -19.9993566)",
+        "latitude": -19.9993566,
+        "longitude": -43.966766,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CAMPO ALEGRE",
+        "id": "23 CENTRO DE SAUDE CAMPO ALEGRE",
+        "location": "POINT (-43.9499607 -19.8288031)",
+        "latitude": -19.8288031,
+        "longitude": -43.9499607,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE JARDIM FELICIDADE",
+        "id": "26 CENTRO DE SAUDE JARDIM FELICIDADE",
+        "location": "POINT (-43.928489685058594 -19.830340216628162)",
+        "latitude": -19.83034021662816,
+        "longitude": -43.92848968505859,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE REGINA",
+        "id": "15 CENTRO DE SAUDE REGINA",
+        "location": "POINT (-44.0549948 -19.9836964)",
+        "latitude": -19.9836964,
+        "longitude": -44.0549948,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE DOM CABRAL",
+        "id": "25 CENTRO DE SAUDE DOM CABRAL",
+        "location": "POINT (-43.9987808765071 -19.9232508)",
+        "latitude": -19.9232508,
+        "longitude": -43.9987808765071,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SANTA TEREZINHA",
+        "id": "15 CENTRO DE SAUDE SANTA TEREZINHA",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE FLORAMAR",
+        "id": "16 CENTRO DE SAUDE FLORAMAR",
+        "location": "POINT (-43.9346123 -19.8395616)",
+        "latitude": -19.8395616,
+        "longitude": -43.9346123,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE DOM ORIONE",
+        "id": "23 CENTRO DE SAUDE DOM ORIONE",
+        "location": "POINT (-43.96843524023036 -19.85432445)",
+        "latitude": -19.85432445,
+        "longitude": -43.96843524023036,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE HELIOPOLIS",
+        "id": "29 CENTRO DE SAUDE HELIOPOLIS",
+        "location": "POINT (-43.926453 -19.937524)",
+        "latitude": -19.937524,
+        "longitude": -43.926453,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE VILA MARIA JOAO VITAL",
+        "id": "26 CENTRO DE SAUDE VILA MARIA JOAO VITAL",
+        "location": "POINT (-43.95548343658447 -19.817259630311668)",
+        "latitude": -19.81725963031167,
+        "longitude": -43.95548343658447,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PIRATININGA",
+        "id": "29 CENTRO DE SAUDE PIRATININGA",
+        "location": "POINT (-43.9932499 -19.816385)",
+        "latitude": -19.816385,
+        "longitude": -43.9932499,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE JAQUELINE II",
+        "id": "23 CENTRO DE SAUDE JAQUELINE II",
+        "location": "POINT (-43.9421817 -19.8057862)",
+        "latitude": -19.8057862,
+        "longitude": -43.9421817,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CIDADE OZANAN",
+        "id": "23 CENTRO DE SAUDE CIDADE OZANAN",
+        "location": "POINT (-43.93208739825762 -19.8844707)",
+        "latitude": -19.8844707,
+        "longitude": -43.93208739825762,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE LEOPOLDO CHRISOSTOMO DE CASTRO",
+        "id": "27 CENTRO DE SAUDE LEOPOLDO CHRISOSTOMO DE CASTRO",
+        "location": "POINT (-43.92087304092627 -19.884058250000002)",
+        "latitude": -19.88405825,
+        "longitude": -43.92087304092627,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE MARIVANDA BALEEIRO",
+        "id": "29 CENTRO DE SAUDE MARIVANDA BALEEIRO",
+        "location": "POINT (-43.8935505 -19.8414159)",
+        "latitude": -19.8414159,
+        "longitude": -43.8935505,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO SOCIOEDUCATIVO SAO JERONIMO",
+        "id": "15 CENTRO SOCIOEDUCATIVO SAO JERONIMO",
+        "location": "POINT (-43.914 -19.897)",
+        "latitude": -19.897,
+        "longitude": -43.914,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SAO PAULO",
+        "id": "29 CENTRO DE SAUDE SAO PAULO",
+        "location": "POINT (-43.9241092 -19.8669491)",
+        "latitude": -19.8669491,
+        "longitude": -43.9241092,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SAO MARCOS",
+        "id": "26 CENTRO DE SAUDE SAO MARCOS",
+        "location": "POINT (-43.9168889 -19.8673944)",
+        "latitude": -19.8673944,
+        "longitude": -43.9168889,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE HORTO",
+        "id": "18 CENTRO DE SAUDE HORTO",
+        "location": "POINT (-43.9314694 -19.9076189)",
+        "latitude": -19.9076189,
+        "longitude": -43.9314694,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE JARDIM ALVORADA",
+        "id": "18 CENTRO DE SAUDE JARDIM ALVORADA",
+        "location": "POINT (-43.983709 -19.8940466)",
+        "latitude": -19.8940466,
+        "longitude": -43.983709,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CARLOS CHAGAS",
+        "id": "26 CENTRO DE SAUDE CARLOS CHAGAS",
+        "location": "POINT (-43.92353215880503 -19.9288654)",
+        "latitude": -19.9288654,
+        "longitude": -43.92353215880503,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE GENTIL GOMES",
+        "id": "18 CENTRO DE SAUDE GENTIL GOMES",
+        "location": "POINT (-43.9454127 -19.8774725)",
+        "latitude": -19.8774725,
+        "longitude": -43.9454127,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE VILA IMPERIAL",
+        "id": "15 CENTRO DE SAUDE VILA IMPERIAL",
+        "location": "POINT (-44.00357007980347 -19.94856156137359)",
+        "latitude": -19.94856156137359,
+        "longitude": -44.00357007980347,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE BARREIRO DE CIMA",
+        "id": "25 CENTRO DE SAUDE BARREIRO DE CIMA",
+        "location": "POINT (-44.005682 -19.9958702)",
+        "latitude": -19.9958702,
+        "longitude": -44.005682,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE ITAIPU JATOBA",
+        "id": "26 CENTRO DE SAUDE ITAIPU JATOBA",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SALGADO FILHO",
+        "id": "23 CENTRO DE SAUDE SALGADO FILHO",
+        "location": "POINT (-43.9809822 -19.9466912)",
+        "latitude": -19.9466912,
+        "longitude": -43.9809822,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE JARDIM COMERCIARIOS",
+        "id": "23 CENTRO DE SAUDE JARDIM COMERCIARIOS",
+        "location": "POINT (-43.9766068 -19.7883197)",
+        "latitude": -19.7883197,
+        "longitude": -43.9766068,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE ZILAH SPOSITO",
+        "id": "23 CENTRO DE SAUDE ZILAH SPOSITO",
+        "location": "POINT (-43.928422 -19.8039751)",
+        "latitude": -19.8039751,
+        "longitude": -43.928422,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE OSWALDO CRUZ",
+        "id": "26 CENTRO DE SAUDE OSWALDO CRUZ",
+        "location": "POINT (-43.9575206 -19.9276187)",
+        "latitude": -19.9276187,
+        "longitude": -43.9575206,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE COPACABANA",
+        "id": "29 CENTRO DE SAUDE COPACABANA",
+        "location": "POINT (-43.9860544 -19.8337468)",
+        "latitude": -19.8337468,
+        "longitude": -43.9860544,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SAO TOMAS",
+        "id": "18 CENTRO DE SAUDE SAO TOMAS",
+        "location": "POINT (-43.9531183 -19.8458024)",
+        "latitude": -19.8458024,
+        "longitude": -43.9531183,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE NOVO HORIZONTE",
+        "id": "25 CENTRO DE SAUDE NOVO HORIZONTE",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE EDUARDO MAURO DE ARAUJO MIRAMAR",
+        "id": "15 CENTRO DE SAUDE EDUARDO MAURO DE ARAUJO MIRAMAR",
+        "location": "POINT (-44.01193857192993 -19.997749000385134)",
+        "latitude": -19.99774900038513,
+        "longitude": -44.01193857192993,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CAMARGOS",
+        "id": "23 CENTRO DE SAUDE CAMARGOS",
+        "location": "POINT (-44.0196366 -19.9372274)",
+        "latitude": -19.9372274,
+        "longitude": -44.0196366,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE ALAMEDA DOS IPES",
+        "id": "29 CENTRO DE SAUDE ALAMEDA DOS IPES",
+        "location": "POINT (-43.9712737 -19.8238204)",
+        "latitude": -19.8238204,
+        "longitude": -43.9712737,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE INDEPENDENCIA",
+        "id": "16 CENTRO DE SAUDE INDEPENDENCIA",
+        "location": "POINT (-44.03151869773865 -20.019595074522258)",
+        "latitude": -20.01959507452226,
+        "longitude": -44.03151869773865,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE VILA LEONINA",
+        "id": "26 CENTRO DE SAUDE VILA LEONINA",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE GUARANI",
+        "id": "23 CENTRO DE SAUDE GUARANI",
+        "location": "POINT (-43.923719 -19.841919)",
+        "latitude": -19.841919,
+        "longitude": -43.923719,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CONJUNTO SANTA MARIA",
+        "id": "15 CENTRO DE SAUDE CONJUNTO SANTA MARIA",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE MENINO JESUS",
+        "id": "18 CENTRO DE SAUDE MENINO JESUS",
+        "location": "POINT (-43.9371881 -19.9443315)",
+        "latitude": -19.9443315,
+        "longitude": -43.9371881,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SAO FRANCISCO",
+        "id": "26 CENTRO DE SAUDE SAO FRANCISCO",
+        "location": "POINT (-43.9550918 -19.8782832)",
+        "latitude": -19.8782832,
+        "longitude": -43.9550918,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE NOVO AARAO REIS",
+        "id": "15 CENTRO DE SAUDE NOVO AARAO REIS",
+        "location": "POINT (-43.9051304 -19.8418105)",
+        "latitude": -19.8418105,
+        "longitude": -43.9051304,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SANTA AMELIA",
+        "id": "29 CENTRO DE SAUDE SANTA AMELIA",
+        "location": "POINT (-43.967123 -19.8372211)",
+        "latitude": -19.8372211,
+        "longitude": -43.967123,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PADRE JOAQUIM MAIA",
+        "id": "25 CENTRO DE SAUDE PADRE JOAQUIM MAIA",
+        "location": "POINT (-43.94949221178 -19.8699673)",
+        "latitude": -19.8699673,
+        "longitude": -43.94949221178,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PADRE EUSTAQUIO",
+        "id": "17 CENTRO DE SAUDE PADRE EUSTAQUIO",
+        "location": "POINT (-43.9845675 -19.9162693)",
+        "latitude": -19.9162693,
+        "longitude": -43.9845675,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE BONSUCESSO",
+        "id": "27 CENTRO DE SAUDE BONSUCESSO",
+        "location": "POINT (-43.989644050598145 -19.987767551332276)",
+        "latitude": -19.98776755133228,
+        "longitude": -43.98964405059814,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE RIO BRANCO",
+        "id": "29 CENTRO DE SAUDE RIO BRANCO",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CONFISCO",
+        "id": "29 CENTRO DE SAUDE CONFISCO",
+        "location": "POINT (-44.0020812 -19.865386)",
+        "latitude": -19.865386,
+        "longitude": -44.0020812,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE MG20",
+        "id": "15 CENTRO DE SAUDE MG20",
+        "location": "POINT (-43.9152156 -19.8472269)",
+        "latitude": -19.8472269,
+        "longitude": -43.9152156,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE RIBEIRO DE ABREU",
+        "id": "29 CENTRO DE SAUDE RIBEIRO DE ABREU",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE JARDIM MONTANHES",
+        "id": "22 CENTRO DE SAUDE JARDIM MONTANHES",
+        "location": "POINT (-43.981796260377976 -19.903864832021295)",
+        "latitude": -19.90386483202129,
+        "longitude": -43.98179626037798,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE BETANIA",
+        "id": "29 CENTRO DE SAUDE BETANIA",
+        "location": "POINT (-43.9940292 -19.9590527)",
+        "latitude": -19.9590527,
+        "longitude": -43.9940292,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE FRANCISCO GOMES BARBOSA TIROL",
+        "id": "26 CENTRO DE SAUDE FRANCISCO GOMES BARBOSA TIROL",
+        "location": "POINT (-44.0466719 -19.994974)",
+        "latitude": -19.994974,
+        "longitude": -44.0466719,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE MILIONARIOS",
+        "id": "22 CENTRO DE SAUDE MILIONARIOS",
+        "location": "POINT (-44.0006547 -19.9791028)",
+        "latitude": -19.9791028,
+        "longitude": -44.0006547,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE LAGOA",
+        "id": "15 CENTRO DE SAUDE LAGOA",
+        "location": "POINT (-43.9991813 -19.8120578)",
+        "latitude": -19.8120578,
+        "longitude": -43.9991813,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE VILA CEMIG",
+        "id": "26 CENTRO DE SAUDE VILA CEMIG",
+        "location": "POINT (-43.9929881 -19.9963134)",
+        "latitude": -19.9963134,
+        "longitude": -43.9929881,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE HAVAI",
+        "id": "22 CENTRO DE SAUDE HAVAI",
+        "location": "POINT (-43.9713376 -19.9665957)",
+        "latitude": -19.9665957,
+        "longitude": -43.9713376,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE MARCO ANTONIO DE MENEZES",
+        "id": "23 CENTRO DE SAUDE MARCO ANTONIO DE MENEZES",
+        "location": "POINT (-43.9192199 -19.9035563)",
+        "latitude": -19.9035563,
+        "longitude": -43.9192199,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SANTA MARIA",
+        "id": "15 CENTRO DE SAUDE SANTA MARIA",
+        "location": "POINT (-44.0160223 -19.932753)",
+        "latitude": -19.932753,
+        "longitude": -44.0160223,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SERRANO",
+        "id": "26 CENTRO DE SAUDE SERRANO",
+        "location": "POINT (-44.0101735 -19.8846934)",
+        "latitude": -19.8846934,
+        "longitude": -44.0101735,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "HOSPITAL INFANTIL JOAO PAULO II",
+        "id": "29 HOSPITAL INFANTIL JOAO PAULO II",
+        "location": "POINT (-43.9317717 -19.924594)",
+        "latitude": -19.924594,
+        "longitude": -43.9317717,
+        "type": "07 HOSPITAL ESPECIALIZADO"
+    },
+    {
+        "name": "CENTRO DE SAUDE OURO PRETO",
+        "id": "29 CENTRO DE SAUDE OURO PRETO",
+        "location": "POINT (-43.9877541 -19.8850983)",
+        "latitude": -19.8850983,
+        "longitude": -43.9877541,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE VERA CRUZ",
+        "id": "15 CENTRO DE SAUDE VERA CRUZ",
+        "location": "POINT (-43.89648697304693 -19.91184385)",
+        "latitude": -19.91184385,
+        "longitude": -43.89648697304693,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE MANTIQUEIRA",
+        "id": "18 CENTRO DE SAUDE MANTIQUEIRA",
+        "location": "POINT (-43.9753239 -19.7989278)",
+        "latitude": -19.7989278,
+        "longitude": -43.9753239,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE JARDIM FILADELFIA",
+        "id": "29 CENTRO DE SAUDE JARDIM FILADELFIA",
+        "location": "POINT (-44.0058647 -19.9097897)",
+        "latitude": -19.9097897,
+        "longitude": -44.0058647,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SANTA INES",
+        "id": "23 CENTRO DE SAUDE SANTA INES",
+        "location": "POINT (-43.90619367 -19.88777299)",
+        "latitude": -19.88777299,
+        "longitude": -43.90619367,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CARLOS RENATO DIAS",
+        "id": "26 CENTRO DE SAUDE CARLOS RENATO DIAS",
+        "location": "POINT (-44.0229865 -19.9742648)",
+        "latitude": -19.9742648,
+        "longitude": -44.0229865,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PADRE FERNANDO DE MELO",
+        "id": "23 CENTRO DE SAUDE PADRE FERNANDO DE MELO",
+        "location": "POINT (-43.9387344 -19.8722538)",
+        "latitude": -19.8722538,
+        "longitude": -43.9387344,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE JARDIM EUROPA",
+        "id": "15 CENTRO DE SAUDE JARDIM EUROPA",
+        "location": "POINT (-43.9673414 -19.8004568)",
+        "latitude": -19.8004568,
+        "longitude": -43.9673414,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE NAZARE",
+        "id": "15 CENTRO DE SAUDE NAZARE",
+        "location": "POINT (-43.8935215 -19.8510988)",
+        "latitude": -19.8510988,
+        "longitude": -43.8935215,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SAO JOSE OPERARIO",
+        "id": "18 CENTRO DE SAUDE SAO JOSE OPERARIO",
+        "location": "POINT (-43.8987866 -19.8866939)",
+        "latitude": -19.8866939,
+        "longitude": -43.8987866,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SANTO ANTONIO",
+        "id": "22 CENTRO DE SAUDE SANTO ANTONIO",
+        "location": "POINT (-43.9589824 -19.8177461)",
+        "latitude": -19.8177461,
+        "longitude": -43.9589824,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CABANA",
+        "id": "23 CENTRO DE SAUDE CABANA",
+        "location": "POINT (-44.0000019 -19.9417989)",
+        "latitude": -19.9417989,
+        "longitude": -44.0000019,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE GRANJA DE FREITAS",
+        "id": "22 CENTRO DE SAUDE GRANJA DE FREITAS",
+        "location": "POINT (-43.9604713 -19.9907658)",
+        "latitude": -19.9907658,
+        "longitude": -43.9604713,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "BELO HORIZONTE COMPLEXO PENITENCIARIO FEM ESTEVAO PINTO",
+        "id": "15 BELO HORIZONTE COMPLEXO PENITENCIARIO FEM ESTEVAO PINTO",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SAO CRISTOVAO",
+        "id": "18 CENTRO DE SAUDE SAO CRISTOVAO",
+        "location": "POINT (-43.94451856613159 -19.908296717787252)",
+        "latitude": -19.90829671778725,
+        "longitude": -43.94451856613159,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CARLOS PRATES",
+        "id": "22 CENTRO DE SAUDE CARLOS PRATES",
+        "location": "POINT (-43.96402157387211 -19.914510823160455)",
+        "latitude": -19.91451082316046,
+        "longitude": -43.96402157387211,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CAPITAO EDUARDO",
+        "id": "26 CENTRO DE SAUDE CAPITAO EDUARDO",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE COQUEIROS",
+        "id": "18 CENTRO DE SAUDE COQUEIROS",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE GLORIA",
+        "id": "29 CENTRO DE SAUDE GLORIA",
+        "location": "POINT (-44.0145101 -19.901787)",
+        "latitude": -19.901787,
+        "longitude": -44.0145101,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE DOM BOSCO",
+        "id": "22 CENTRO DE SAUDE DOM BOSCO",
+        "location": "POINT (-43.9886735 -19.9134787)",
+        "latitude": -19.9134787,
+        "longitude": -43.9886735,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE JAQUELINE",
+        "id": "23 CENTRO DE SAUDE JAQUELINE",
+        "location": "POINT (-43.940677642822266 -19.80617662472302)",
+        "latitude": -19.80617662472302,
+        "longitude": -43.94067764282227,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE VISTA ALEGRE",
+        "id": "18 CENTRO DE SAUDE VISTA ALEGRE",
+        "location": "POINT (-43.9880869 -19.9489763)",
+        "latitude": -19.9489763,
+        "longitude": -43.9880869,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE VILA PINHO",
+        "id": "18 CENTRO DE SAUDE VILA PINHO",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE MARIA MADALENA TEODORO LINDEIA",
+        "id": "15 CENTRO DE SAUDE MARIA MADALENA TEODORO LINDEIA",
+        "location": "POINT (-44.0456444 -19.9797031)",
+        "latitude": -19.9797031,
+        "longitude": -44.0456444,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PADRE TIAGO",
+        "id": "29 CENTRO DE SAUDE PADRE TIAGO",
+        "location": "POINT (-44.0048684 -19.8981198)",
+        "latitude": -19.8981198,
+        "longitude": -44.0048684,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CERESP CENTRO DE REMANEJAMENTO PRISIONAL GAMELEIRA",
+        "id": "9 CERESP CENTRO DE REMANEJAMENTO PRISIONAL GAMELEIRA",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE JARDIM GUANABARA",
+        "id": "22 CENTRO DE SAUDE JARDIM GUANABARA",
+        "location": "POINT (-43.9328038 -19.8280872)",
+        "latitude": -19.8280872,
+        "longitude": -43.9328038,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CEU AZUL",
+        "id": "18 CENTRO DE SAUDE CEU AZUL",
+        "location": "POINT (-43.9984525405477 -19.8196316)",
+        "latitude": -19.8196316,
+        "longitude": -43.9984525405477,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE JOAO PINHEIRO",
+        "id": "15 CENTRO DE SAUDE JOAO PINHEIRO",
+        "location": "POINT (-44.00378625983115 -19.927537812210858)",
+        "latitude": -19.92753781221086,
+        "longitude": -44.00378625983115,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SANTA RITA DE CASSIA",
+        "id": "17 CENTRO DE SAUDE SANTA RITA DE CASSIA",
+        "location": "POINT (-43.9355064 -19.9471669)",
+        "latitude": -19.9471669,
+        "longitude": -43.9355064,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE VALE DO JATOBA",
+        "id": "29 CENTRO DE SAUDE VALE DO JATOBA",
+        "location": "POINT (-43.955698013305664 -19.817542246948534)",
+        "latitude": -19.81754224694853,
+        "longitude": -43.95569801330566,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PARAISO",
+        "id": "29 CENTRO DE SAUDE PARAISO",
+        "location": "POINT (-43.90811773749034 -19.924395099999998)",
+        "latitude": -19.9243951,
+        "longitude": -43.90811773749034,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE FELICIDADE II",
+        "id": "23 CENTRO DE SAUDE FELICIDADE II",
+        "location": "POINT (-43.93086016037904 -19.824702315689166)",
+        "latitude": -19.82470231568917,
+        "longitude": -43.93086016037904,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE JOAO XXIII",
+        "id": "17 CENTRO DE SAUDE JOAO XXIII",
+        "location": "POINT (-44.0061504 -19.9391601)",
+        "latitude": -19.9391601,
+        "longitude": -44.0061504,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE MARCELO PONTEL GOMES",
+        "id": "22 CENTRO DE SAUDE MARCELO PONTEL GOMES",
+        "location": "POINT (-43.8831349 -19.8609847)",
+        "latitude": -19.8609847,
+        "longitude": -43.8831349,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO SOCIOEDUCATIVO SANTA CLARA CSESC",
+        "id": "23 CENTRO SOCIOEDUCATIVO SANTA CLARA CSESC",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE FABIO CORREA LIMA",
+        "id": "15 CENTRO DE SAUDE FABIO CORREA LIMA",
+        "location": "POINT (-43.9138926 -19.8568092)",
+        "latitude": -19.8568092,
+        "longitude": -43.9138926,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE MARIANO DE ABREU",
+        "id": "15 CENTRO DE SAUDE MARIANO DE ABREU",
+        "location": "POINT (-43.8790722 -19.9139678)",
+        "latitude": -19.9139678,
+        "longitude": -43.8790722,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE PEDREIRA PRADO LOPES",
+        "id": "17 CENTRO DE SAUDE PEDREIRA PRADO LOPES",
+        "location": "POINT (-43.9521262 -19.9058253)",
+        "latitude": -19.9058253,
+        "longitude": -43.9521262,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE LAJEDO",
+        "id": "29 CENTRO DE SAUDE LAJEDO",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE POMPEIA",
+        "id": "23 CENTRO DE SAUDE POMPEIA",
+        "location": "POINT (-43.9054967 -19.9125266)",
+        "latitude": -19.9125266,
+        "longitude": -43.9054967,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE NOSSA SENHORA DE FATIMA",
+        "id": "16 CENTRO DE SAUDE NOSSA SENHORA DE FATIMA",
+        "location": "POINT (-43.914634 -19.9396021)",
+        "latitude": -19.9396021,
+        "longitude": -43.914634,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE INTERNACAO PROVISORIA SAO BENEDITO",
+        "id": "15 CENTRO DE INTERNACAO PROVISORIA SAO BENEDITO",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE DIAMANTE TEIXEIRA DIAS",
+        "id": "17 CENTRO DE SAUDE DIAMANTE TEIXEIRA DIAS",
+        "location": "POINT (-44.0153509 -19.9927583)",
+        "latitude": -19.9927583,
+        "longitude": -44.0153509,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE BOM JESUS",
+        "id": "23 CENTRO DE SAUDE BOM JESUS",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE TREVO",
+        "id": "18 CENTRO DE SAUDE TREVO",
+        "location": "POINT (-43.94256591796875 -19.924294950473797)",
+        "latitude": -19.9242949504738,
+        "longitude": -43.94256591796875,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE NOSSA SENHORA APARECIDA",
+        "id": "22 CENTRO DE SAUDE NOSSA SENHORA APARECIDA",
+        "location": "POINT (-43.9170314 -19.9306797)",
+        "latitude": -19.9306797,
+        "longitude": -43.9170314,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE SANTA LUCIA",
+        "id": "23 CENTRO DE SAUDE SANTA LUCIA",
+        "location": "POINT (-43.9467964 -19.9506715)",
+        "latitude": -19.9506715,
+        "longitude": -43.9467964,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE NOVA YORK",
+        "id": "15 CENTRO DE SAUDE NOVA YORK",
+        "location": "POINT (-43.9708113 -19.7926608)",
+        "latitude": -19.7926608,
+        "longitude": -43.9708113,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE MARIA GORETTI IPE",
+        "id": "26 CENTRO DE SAUDE MARIA GORETTI IPE",
+        "location": "POINT (-43.9042534 -19.8708612)",
+        "latitude": -19.8708612,
+        "longitude": -43.9042534,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE AMILCAR VIANNA MARTINS",
+        "id": "23 CENTRO DE SAUDE AMILCAR VIANNA MARTINS",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CICERO ILDEFONSO",
+        "id": "23 CENTRO DE SAUDE CICERO ILDEFONSO",
+        "location": "POINT (-43.998415 -19.9549289)",
+        "latitude": -19.9549289,
+        "longitude": -43.998415,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE TIA AMANCIA",
+        "id": "17 CENTRO DE SAUDE TIA AMANCIA",
+        "location": "POINT (-43.9497251 -19.9477732)",
+        "latitude": -19.9477732,
+        "longitude": -43.9497251,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE EFIGENIA MURTA DE FIGUEIREDO",
+        "id": "22 CENTRO DE SAUDE EFIGENIA MURTA DE FIGUEIREDO",
+        "location": "POINT (-43.9000005 -19.8247148)",
+        "latitude": -19.8247148,
+        "longitude": -43.9000005,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE DOM JOAQUIM",
+        "id": "29 CENTRO DE SAUDE DOM JOAQUIM",
+        "location": "POINT (-43.9236771 -19.8723166)",
+        "latitude": -19.8723166,
+        "longitude": -43.9236771,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CONJUNTO PAULO VI",
+        "id": "29 CENTRO DE SAUDE CONJUNTO PAULO VI",
+        "location": "POINT (-43.8870716 -19.8305716)",
+        "latitude": -19.8305716,
+        "longitude": -43.8870716,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE MINAS CAIXA",
+        "id": "26 CENTRO DE SAUDE MINAS CAIXA",
+        "location": "POINT (-43.9558607 -19.8069831)",
+        "latitude": -19.8069831,
+        "longitude": -43.9558607,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE LISANDRA ANGELICA DAVID JUSTINO",
+        "id": "26 CENTRO DE SAUDE LISANDRA ANGELICA DAVID JUSTINO",
+        "location": "POINT (-44.0475554 -19.9844603)",
+        "latitude": -19.9844603,
+        "longitude": -44.0475554,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE MANGUEIRAS",
+        "id": "29 CENTRO DE SAUDE MANGUEIRAS",
+        "location": "POINT (-44.030832052230835 -20.013768407224955)",
+        "latitude": -20.01376840722495,
+        "longitude": -44.03083205223083,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO SOCIOEDUCATIVO SANTA HELENA",
+        "id": "25 CENTRO SOCIOEDUCATIVO SANTA HELENA",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE CONJUNTO BETANIA",
+        "id": "18 CENTRO DE SAUDE CONJUNTO BETANIA",
+        "location": "POINT (-43.9948026 -19.9640427)",
+        "latitude": -19.9640427,
+        "longitude": -43.9948026,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE WALDOMIRO LOBO",
+        "id": "29 CENTRO DE SAUDE WALDOMIRO LOBO",
+        "location": "POINT (-44.0070998 -19.9471546)",
+        "latitude": -19.9471546,
+        "longitude": -44.0070998,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE BOA VISTA",
+        "id": "23 CENTRO DE SAUDE BOA VISTA",
+        "location": "POINT (-43.956 -19.817)",
+        "latitude": -19.817,
+        "longitude": -43.956,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE ITAMARATI",
+        "id": "18 CENTRO DE SAUDE ITAMARATI",
+        "location": "POINT (-43.987685600000006 -19.86845895)",
+        "latitude": -19.86845895,
+        "longitude": -43.98768560000001,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    },
+    {
+        "name": "CENTRO DE SAUDE NORALDINO DE LIMA",
+        "id": "29 CENTRO DE SAUDE NORALDINO DE LIMA",
+        "location": "POINT (-43.9383548 -19.9189976)",
+        "latitude": -19.9189976,
+        "longitude": -43.9383548,
+        "type": "02 CENTRO DE SAUDE/UNIDADE BASICA"
+    }
+]

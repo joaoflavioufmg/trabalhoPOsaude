@@ -1,0 +1,18 @@
+{
+    "descricao_cbo": {
+        "TECNICO DE ENFERMAGEM": 1148,
+        "MEDICO GENERALISTA": 741,
+        "MEDICO CLINICO": 495,
+        "ENFERMEIRO": 428,
+        "AUXILIAR DE ENFERMAGEM": 346,
+        "TECNICO EM PATOLOGIA CLINICA": 156
+    },
+    "custo_cbo": {
+        "TECNICO DE ENFERMAGEM": 10540.0,
+        "MEDICO GENERALISTA": 0.0,
+        "MEDICO CLINICO": 5940.0,
+        "ENFERMEIRO": 2770.0,
+        "AUXILIAR DE ENFERMAGEM": 0.0,
+        "TECNICO EM PATOLOGIA CLINICA": 1470.0
+    }
+}
