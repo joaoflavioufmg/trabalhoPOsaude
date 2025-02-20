@@ -294,6 +294,9 @@ def retorna_pareto_por_municipio(
             "DENTISTA",
             "BUCAL",
             "FARMACEUTICO",
+            "CIRURGIAO DENTISTA",
+            "CLINICO",
+            "ENDEMIAS",
         ]
 
     lista_cbo_full = [
@@ -374,7 +377,66 @@ def retorna_pareto_por_municipio(
     ).reset_index()
 
     df_qntd_eq["qntd_eqs"] = np.ceil(df_qntd_eq.carga_horaria / param_hora)
-    return df_qntd_eq, eqs
+    df_eqs_fim = df_qntd_eq[df_qntd_eq.profissional_cbo.isin(eqs)].reset_index(
+        drop=True
+    )
+
+    if municipio == "CONTAGEM":
+        if primario:
+            # Conversão dos dados para Contagem a principio. Generalizar depois!
+            primario_end = [
+                "cnes",
+                "AGENTE COMUNITARIO DE SAUDE",
+                "ENFERMEIRO",
+                "MEDICO_FAMILIA",
+                "TECNICO_ENFERMAGEM",
+                "DENTISTA",
+                "TECNICO_SAUDE_BUCAL",
+                "MEDICO PSIQUIATRA",
+                "PSICOLOGO CLINICO",
+                "FONOAUDIOLOGO GERAL",
+                "AGENTE DE COMBATE AS ENDEMIAS",
+                "NUTRICIONISTA",
+            ]
+            df_pivot = df_eqs_fim.pivot_table(
+                index="cnes",
+                columns="profissional_cbo",
+                values="qntd_eqs",
+                fill_value=0,
+            )
+
+            df_pivot["MEDICO_FAMILIA"] = (
+                df_pivot["MEDICO PEDIATRA"]
+                + df_pivot["MEDICO GINECOLOGISTA E OBSTETRA"]
+                + df_pivot["MEDICO CLINICO"]
+                + df_pivot["MEDICO DA ESTRATEGIA DE SAUDE DA FAMILIA"]
+            )
+
+            df_pivot["ENFERMEIRO"] = (
+                df_pivot["ENFERMEIRO"]
+                + df_pivot["ENFERMEIRO DA ESTRATEGIA DE SAUDE DA FAMILIA"]
+            )
+            df_pivot["TECNICO_ENFERMAGEM"] = (
+                df_pivot["AUXILIAR DE ENFERMAGEM DA ESTRATEGIA DE SAUDE DA FAMILIA"]
+                + df_pivot["AUXILIAR DE ENFERMAGEM"]
+            )
+
+            df_pivot["DENTISTA"] = (
+                df_pivot["CIRURGIAO DENTISTA  CLINICO GERAL"]
+                + df_pivot["CIRURGIAODENTISTA DA ESTRATEGIA DE SAUDE DA FAMILIA"]
+            )
+
+            df_pivot["TECNICO_SAUDE_BUCAL"] = df_pivot[
+                "AUXILIAR EM SAUDE BUCAL DA ESTRATEGIA DE SAUDE DA FAMILIA"
+            ]
+
+            df_pivot = df_pivot[[i for i in df_pivot.columns if i in primario_end]]
+            eqs = [i for i in primario_end if i != "cnes"]
+
+            df_eqs_fim = df_pivot.reset_index().melt(
+                id_vars="cnes", var_name="profissional_cbo", value_name="qntd_eqs"
+            )
+    return df_eqs_fim, eqs
 
 
 # %% ########## PRIMÁRIO #############
@@ -392,12 +454,12 @@ df_eq_prim_aux = pd.DataFrame(
 
 for cd in cidades_iniciais:
     df, eqs = retorna_pareto_por_municipio(
-        df_eq_primary, cd, percent=0.8, plota=True, param_hora=40, primario=True
+        df_eq_primary, cd, percent=0.9, plota=False, param_hora=40, primario=True
     )
     df["municipio"] = cd
     df_eq_prim_aux = pd.concat([df_eq_prim_aux, df])
 
-
+b = 0
 # %% ########## SECUNDÁRIO #############
 cidades_iniciais = [
     "IPATINGA",
@@ -410,7 +472,7 @@ df_equipes_sec = pd.DataFrame(
     columns=["cnes", "profissional_cbo", "carga_horaria", "qntd_eqs", "municipio"]
 )
 for cd in cidades_iniciais:
-    df, eqs = retorna_pareto_por_municipio(df_eq_sec, cd, percent=0.8, plota=True)
+    df, eqs = retorna_pareto_por_municipio(df_eq_sec, cd, percent=0.8, plota=False)
     df["municipio"] = cd
     df_equipes_sec = pd.concat([df_equipes_sec, df])
 
@@ -428,7 +490,7 @@ df_equipes_terc = pd.DataFrame(
     columns=["cnes", "profissional_cbo", "carga_horaria", "qntd_eqs", "municipio"]
 )
 for cd in cidades_iniciais:
-    df, eqs = retorna_pareto_por_municipio(df_eq_ter_aux, cd, percent=0.8, plota=True)
+    df, eqs = retorna_pareto_por_municipio(df_eq_ter_aux, cd, percent=0.8, plota=False)
     df["municipio"] = cd
     df_equipes_terc = pd.concat([df_equipes_terc, df])
 
@@ -447,14 +509,5 @@ df_equipes_terc["nivel"] = "terciario"
 
 df_end = pd.concat([df_eq_prim_aux, df_equipes_sec, df_equipes_terc])
 df_end.to_excel("especialidades_por_nivel_e_municipio.xlsx")
-# %%
-
-df_secundary["total"] = (
-    df_secundary["MEDICO CARDIOLOGISTA"]
-    + df_secundary["MEDICO CLINICO"]
-    + df_secundary["MEDICO GINECOLOGISTA E OBSTETRA"]
-    + df_secundary["MEDICO ORTOPEDISTA E TRAUMATOLOGISTA"]
-    + df_secundary["MEDICO PEDIATRA"]
-)
 
 # %%

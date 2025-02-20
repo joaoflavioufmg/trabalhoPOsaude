@@ -87,8 +87,8 @@ for cn in df_n1[!, "cnes"]
         end
     end
     
-    list_fim = hcat(list_fim, list_aux)
-    list_aux = vcat()
+    global list_fim = hcat(list_fim, list_aux)
+    global list_aux = vcat()
 end
 
 qntd_equipes_por_n1 = (list_fim[:, 2:end])'
@@ -104,7 +104,7 @@ for eq in lista_equipes_n1
     v = filter(row -> row.Especialidade .== eq, df_necessidades_primario)
     if nrow(v) > 0
         push!(list_end, v[!, "Razao"][1])
-        push!(lista_custo_end, v[!, "Custo_diario"][1])
+        push!(lista_custo_end, v[!, "Custo"][1]) 
     else
         push!(list_end, v_outros)
         push!(lista_custo_end, v_outros_custo)
@@ -113,13 +113,6 @@ end
 
 capacidade_maxima_por_equipe_n1 = vcat(list_end)
 S_custo_equipe_n1 = vcat(lista_custo_end)
-
-
-#pop_maxima_por_equipe_n1 = df_necessidades_primario[!, "Necessidade"]
-#capacidade_maxima_por_equipe_n1 = vcat([1/v for v in pop_maxima_por_equipe_n1]) #Quantidade máxima que cada equipe pode atender!
-
-#qntd_equipes_por_n1 = Matrix(select(df_n1, [:ESF, :ESB, :EACS, :EAP]))
-#S_custo_equipe_n1 = [50000, 50000, 30000, 25000]
 
 
 ############### NÍVEL Secundário ###############
@@ -144,8 +137,8 @@ for cn in df_n2[!, "cnes"]
         end
     end
     
-    list_fim = hcat(list_fim, list_aux)
-    list_aux = vcat()
+    global list_fim = hcat(list_fim, list_aux)
+    global list_aux = vcat()
 end
 
 S_capacidade_CNES_n2 = (list_fim[:, 2:end])'
@@ -154,7 +147,7 @@ S_capacidade_CNES_n2 = (list_fim[:, 2:end])'
 
 v_ = filter(row -> row.Especialidade .== "Outras especialidades", df_necessidades_sec_ter)
 v_outros =  v_[!, "Razao"][1]
-v_outros_custo = v_[!, "Custo_diario"][1]
+v_outros_custo = v_[!, "Custo"][1]
 
 
 list_end = []
@@ -163,7 +156,7 @@ for eq in lista_equipes_n2
     v = filter(row -> row.Especialidade .== eq, df_necessidades_sec_ter)
     if nrow(v) > 0
         push!(list_end, v[!, "Razao"][1])
-        push!(lista_custo_end, v[!, "Custo_diario"][1])
+        push!(lista_custo_end, v[!, "Custo"][1])
     else
         push!(list_end, v_outros)
         push!(lista_custo_end, v_outros_custo)
@@ -190,8 +183,8 @@ for cn in df_n3[!, "cnes"]
         end
     end
     
-    list_fim = hcat(list_fim, list_aux)
-    list_aux = vcat()
+    global list_fim = hcat(list_fim, list_aux)
+    global list_aux = vcat()
 end
 
 S_capacidade_CNES_n3 = list_fim[:, 2:end]'
@@ -204,7 +197,7 @@ for eq in lista_equipes_n3
     v = filter(row -> row.Especialidade .== eq, df_necessidades_sec_ter)
     if nrow(v) > 0
         push!(list_end, v[!, "Razao"][1])
-        push!(lista_custo_end, v[!, "Custo_diario"][1])
+        push!(lista_custo_end, v[!, "Custo"][1])
     else
         push!(list_end, v_outros)
         push!(lista_custo_end,v_outros_custo)
@@ -319,28 +312,27 @@ max_abr_n3 = ceil(qntd_n3_real * Coef_Abertura)
 Cap_n1 = 10000
 Cap_n2 = 150000
 Cap_n3 = 800000
+ 
+custo_deslocamento = 0.52 #Tem impacto no modelo? Testar outputs com variação!!
+Custo_abertura_n1 = 2416382
+S_custo_fixo_n1 = 0.08 * 750000
+S_custo_variavel_n1 = [0.07 * 750000 / 10000, 0.07 * 750000 / 10000]
 
-custo_deslocamento = 5
-Custo_abertura_n1 = 100000
-S_custo_fixo_n1 = 10000
-S_custo_variavel_n1 = [10, 10] #Buscar estimativas melhores para esse valor!
 
-
-#Calculo do custo variável = Custo total / total de atendimentos de acordo com produção consolidada cnes: https://elasticnes.saude.gov.br/producao-consolidada
-S_custo_fixo_n2 = 100000
-c_var_n2 = 294193639 / 25980514
+S_custo_fixo_n2 = 0.17 * 2000000
+Custo_abertura_n2 = 6593000
+c_var_n2 = 0.08 * 2000000 / 150000
 S_custo_variavel_n2 = [c_var_n2, c_var_n2]
 
-S_custo_fixo_n3 = 500000
-c_var_n3 = 196605634 / 107388
+S_custo_fixo_n3 = 0.19 * 20000000
+c_var_n3 = 0.11 * 20000000 / 800000
+Custo_abertura_n3 = 12000000
 S_custo_variavel_n3 = [c_var_n3, c_var_n3]
 
 
 
 
 #MODELO!
-
-
 model = JuMP.Model(HiGHS.Optimizer)
 set_optimizer_attribute(model, "time_limit", 500.0)
 set_optimizer_attribute(model, "primal_feasibility_tolerance", 1e-6)
@@ -376,7 +368,7 @@ fluxo_eq_n3 = @variable(model, eq_n3[eq in S_equipes_n3, n1 in S_n3])
 #@constraint(model, [d in S_Pontos_Demanda, n1 in dominio_atr_n1[d]], sum(S_Valor_Demanda[d] * Abr_n1[n1] * porcentagem_populacao[p] for p in S_pacientes) == sum(fluxo_n1[d,n1,p] * porcentagem_populacao[p] for p in S_pacientes))
 
 @constraint(model, [d in S_Pontos_Demanda], sum(Aloc_[d, n1] for n1 in dominio_atr_n1[d]) == 1)
-@constraint(model, [d in S_Pontos_Demanda, n1 in dominio_atr_n1[d],  p in S_pacientes], Aloc_[d, n1] * S_Valor_Demanda[d] * porcentagem_populacao[p] == fluxo_n1[d,n1,p])
+@constraint(model, [d in S_Pontos_Demanda, n1 in dominio_atr_n1[d],  p in S_pacientes], Aloc_[d, n1] * S_Valor_Demanda[d] * porcentagem_populacao[p] == X_n1[d,n1,p])
 
 
 @constraint(model, [n1 in S_n1, p in S_pacientes], sum(X_n2[n1, n2, p] for n2 in dominio_atr_n2[n1]) == percent_n1_n2 * sum(X_n1[d, n1, p] for d in S_Pontos_Demanda if n1 in dominio_atr_n1[d]) )
@@ -400,7 +392,7 @@ fluxo_eq_n3 = @variable(model, eq_n3[eq in S_equipes_n3, n1 in S_n3])
 #Capacidade das Unidades! Não tenho esse dado! Dividir esse dado para cronico e agudo!
 #Pegar esse dado com ministério da saúde para primário e calcular via numéro de leitos no secundário!
 
-@constraint(model, [n1 in S_n1, p in S_pacientes], sum(X_n1[d, n1, p] for d in S_Pontos_Demanda if n1 in dominio_atr_n1[d]) <= Cap_n1)
+@constraint(model, [n1 in S_n1], sum(X_n1[d, n1, p] for d in S_Pontos_Demanda, p in S_pacientes if n1 in dominio_atr_n1[d]) <= Cap_n1)
 @constraint(model, [n2 in S_n2], sum(X_n2[n1,n2, p] for n1 in S_n1, p in S_pacientes if n2 in dominio_atr_n2[n1]) <= Cap_n2)
 @constraint(model, [n3 in S_n3], sum(X_n3[n2, n3, p] for n2 in S_n2, p in S_pacientes if n3 in dominio_atr_n3[n2]) <= Cap_n3)
 
@@ -444,14 +436,14 @@ fluxo_eq_n3 = @variable(model, eq_n3[eq in S_equipes_n3, n1 in S_n3])
 @expression(model, custo_variavel_n1, sum(X_n1[d, un, p] * S_custo_variavel_n1[p] for d in S_Pontos_Demanda, un in S_n1, p in S_pacientes if un in dominio_atr_n1[d]))
 
 @expression(model, custo_logistico_n2,  sum(X_n2[un, un2, p] * Matriz_Dist_n2[un, un2] * custo_deslocamento for un2 in S_n2, un in S_n1, p in S_pacientes if un2 in dominio_atr_n2[un]))
-@expression(model, custo_fixo_novos_n2, sum(Abr_n2[un] * S_custo_fixo_n2 for un in S_locais_candidatos_n2))
+@expression(model, custo_fixo_novos_n2, sum(Abr_n2[un] * Custo_abertura_n2 for un in S_locais_candidatos_n2))
 @expression(model, custo_fixo_existente_n2, sum(S_custo_fixo_n2 for un2 in S_instalacoes_reais_n2))
 @expression(model, custo_times_novos_n2, sum(fluxo_eq_n2[eq, un] * S_custo_equipe_n2[eq] for eq in S_equipes_n2, un in S_n2))
 @expression(model, custo_variavel_n2, sum(X_n2[un,un2, p] * S_custo_variavel_n2[p] for un2 in S_n2, un in S_n1, p in S_pacientes if un2 in dominio_atr_n2[un]))
 
 
 @expression(model, custo_logistico_n3,  sum(X_n3[un2, un3, p] * Matriz_Dist_n3[un2, un3] * custo_deslocamento for un2 in S_n2, un3 in S_n3, p in S_pacientes if un3 in dominio_atr_n3[un2]))
-@expression(model, custo_fixo_novos_n3, sum(Abr_n3[un] * S_custo_fixo_n3 for un in S_locais_candidatos_n3))
+@expression(model, custo_fixo_novos_n3, sum(Abr_n3[un] * Custo_abertura_n3 for un in S_locais_candidatos_n3))
 @expression(model, custo_fixo_existente_n3, sum(S_custo_fixo_n3 for un3 in S_instalacoes_reais_n3))
 @expression(model, custo_times_novos_n3, sum(fluxo_eq_n3[eq, un] * S_custo_equipe_n3[eq] for eq in S_equipes_n3, un in S_n3))
 @expression(model, custo_variavel_n3, sum(X_n3[un2,un3, p] * S_custo_variavel_n3[p] for un2 in S_n2, un3 in S_n3, p in S_pacientes if un3 in dominio_atr_n3[un2]))
@@ -469,6 +461,335 @@ fluxo_eq_n3 = @variable(model, eq_n3[eq in S_equipes_n3, n1 in S_n3])
 optimize!(model)
 obj = objective_value(model)
 
+
+#Exportando resultados para excel!!
+
+nome_arquivo="resultados.xlsx"
+n_aba = 1
+
+XLSX.openxlsx(nome_arquivo, mode="rw") do arquivo
+    planilha = arquivo[n_aba]
+    
+    # Cabeçalhos
+    planilha["A1"] = "Ponto Demanda"
+    planilha["B1"] = "Instalacao"
+    planilha["C1"] = "Valor"
+    planilha["D1"] = "Quantidade_Pacientes_Cronicos"
+    planilha["E1"] = "Quantidade_Pacientes_Agudos"
+
+    linha = 2  # Começa na linha 2 (linha 1 tem cabeçalhos)
+    for d in S_Pontos_Demanda, n1 in dominio_atr_n1[d]
+        planilha["A$linha"] = df_m.CD_SETOR[d]
+        if value(Aloc_[d, n1]) < 0.3
+            vl = 0
+            fl1 = 0
+            fl2 = 0
+        else
+            vl = value(Aloc_[d, n1])
+            fl1 = value(fluxo_n1[d, n1, 1])
+            fl2 = value(fluxo_n1[d, n1, 2])
+
+        end  
+        if n1 > qntd_n1_real
+            planilha["B$linha"] = n1
+        else
+
+            planilha["B$linha"] = df_n1.nome_fantasia[n1]  # Índice j
+        end
+        planilha["C$linha"] = value(Aloc_[d, n1])
+        planilha["D$linha"] = value(fluxo_n1[d, n1, 1])
+        planilha["E$linha"] = value(fluxo_n1[d, n1, 2])
+
+        linha += 1
+    end
+
+end
+
+n_aba = 2
+XLSX.openxlsx(nome_arquivo, mode="rw") do arquivo
+    planilha = arquivo[n_aba]
+    
+    
+    # Cabeçalhos
+    planilha["A1"] = "Origem_nivel_1"
+    planilha["B1"] = "Destino_nivel_2"
+    planilha["C1"] = "Quantidade_Pacientes_Cronicos"
+    planilha["D1"] = "Quantidade_Pacientes_Agudos"
+
+    linha = 2  # Começa na linha 2 (linha 1 tem cabeçalhos)
+    for n1 in S_n1, n2 in dominio_atr_n2[n1]
+        if n1 > qntd_n1_real
+            planilha["A$linha"] = n1
+        else
+
+            planilha["A$linha"] = df_n1.nome_fantasia[n1]
+        end
+
+        if n2 > qntd_n2_real
+            planilha["B$linha"] = n2
+        else
+    
+            planilha["B$linha"] = df_n2.nome_fantasia[n2]
+        end
+        planilha["C$linha"] = value(fluxo_n2[n1, n2, 1])
+        planilha["D$linha"] = value(fluxo_n2[n1, n2, 2])
+        linha += 1
+    end     
+end
+
+n_aba = 3
+XLSX.openxlsx(nome_arquivo, mode="rw") do arquivo
+    planilha = arquivo[n_aba]
+    
+    
+    # Cabeçalhos
+    planilha["A1"] = "Origem_nivel_2"
+    planilha["B1"] = "Destino_nivel_3"
+    planilha["C1"] = "Quantidade_Pacientes_Cronicos"
+    planilha["D1"] = "Quantidade_Pacientes_Agudos"
+
+    linha = 2  # Começa na linha 2 (linha 1 tem cabeçalhos)
+    for n2 in S_n2, n3 in dominio_atr_n3[n2]
+        if n2 > qntd_n2_real
+            planilha["A$linha"] = n2
+        else
+
+            planilha["A$linha"] = df_n2.nome_fantasia[n2]
+        end
+
+        if n3 > qntd_n3_real
+            planilha["B$linha"] = n3
+        else
+    
+            planilha["B$linha"] = df_n3.nome_fantasia[n3]
+        end
+        planilha["C$linha"] = value(fluxo_n3[n2, n3, 1])
+        planilha["D$linha"] = value(fluxo_n3[n2, n3, 2])
+        linha += 1
+    end     
+end
+
+#Abertura de unidades!!!
+n_aba = 4
+XLSX.openxlsx(nome_arquivo, mode="rw") do arquivo
+    planilha = arquivo[n_aba]
+
+    # Cabeçalhos
+    planilha["A1"] = "Instalacao"
+    planilha["B1"] = "Abertura_Nivel_1"
+    linha = 2 
+    for n1 in S_n1
+        if n1 > qntd_n1_real
+            planilha["A$linha"] = n1
+        else
+
+            planilha["A$linha"] = df_n1.nome_fantasia[n1]  # Índice j
+        end
+        planilha["B$linha"] = value(Abr_n1[n1])
+        linha += 1
+    end
+
+end
+
+n_aba = 5
+XLSX.openxlsx(nome_arquivo, mode="rw") do arquivo
+    planilha = arquivo[n_aba]
+
+    # Cabeçalhos
+    planilha["A1"] = "Instalacao"
+    planilha["B1"] = "Abertura_Nivel_2"
+    linha = 2 
+    for n1 in S_n2
+        if n1 > qntd_n1_real
+            planilha["A$linha"] = n1
+        else
+
+            planilha["A$linha"] = df_n2.nome_fantasia[n1]  # Índice j
+        end
+        planilha["B$linha"] = value(Abr_n2[n1])
+        linha += 1
+    end
+
+end
+
+n_aba = 6
+XLSX.openxlsx(nome_arquivo, mode="rw") do arquivo
+    planilha = arquivo[n_aba]
+
+    # Cabeçalhos
+    planilha["A1"] = "Instalacao"
+    planilha["B1"] = "Abertura_Nivel_3"
+    linha = 2 
+    for n1 in S_n3
+        if n1 > qntd_n1_real
+            planilha["A$linha"] = n1
+        else
+
+            planilha["A$linha"] = df_n3.nome_fantasia[n1]  # Índice j
+        end
+        planilha["B$linha"] = value(Abr_n3[n1])
+        linha += 1
+    end
+
+end
+
+
+n_aba = 7
+XLSX.openxlsx(nome_arquivo, mode="rw") do arquivo
+    planilha = arquivo[n_aba]
+
+    # Cabeçalhos
+    planilha["A1"] = "Instalacao"
+    planilha["B1"] = "Equipe"
+    planilha["C1"] = "Fluxo"
+    planilha["D1"] = "Valor CNES"
+
+    linha = 2 
+    for n1 in S_n1, eq in S_equipes
+        if n1 > qntd_n1_real
+            planilha["A$linha"] = n1
+            planilha["D$linha"] = 0
+        else
+
+            planilha["A$linha"] = df_n1.nome_fantasia[n1]  # Índice j
+            planilha["D$linha"] = qntd_equipes_por_n1[n1,eq]
+        end
+        planilha["B$linha"] = lista_equipes_n1[eq]
+        planilha["C$linha"] = value(fluxo_eq_n1[eq, n1])
+
+        linha += 1
+    end
+
+end
+
+
+n_aba = 8
+XLSX.openxlsx(nome_arquivo, mode="rw") do arquivo
+    planilha = arquivo[n_aba]
+
+    # Cabeçalhos
+    planilha["A1"] = "Instalacao"
+    planilha["B1"] = "Equipe"
+    planilha["C1"] = "Fluxo"
+    planilha["D1"] = "Valor CNES"
+
+    linha = 2 
+    for n2 in S_n2, eq in S_equipes_n2
+        if n2 > qntd_n2_real
+            planilha["A$linha"] = n2
+            planilha["D$linha"] = 0
+        else
+
+            planilha["A$linha"] = df_n2.nome_fantasia[n2]  # Índice j
+            planilha["D$linha"] = S_capacidade_CNES_n2[n2,eq]
+        end
+        planilha["B$linha"] = lista_equipes_n2[eq]
+        planilha["C$linha"] = value(fluxo_eq_n2[eq, n2])
+
+        linha += 1
+    end
+
+end
+
+
+n_aba = 9
+XLSX.openxlsx(nome_arquivo, mode="rw") do arquivo
+    planilha = arquivo[n_aba]
+
+    # Cabeçalhos
+    planilha["A1"] = "Instalacao"
+    planilha["B1"] = "Equipe"
+    planilha["C1"] = "Fluxo"
+    planilha["D1"] = "Valor CNES"
+
+    linha = 2 
+    for n3 in S_n3, eq in S_equipes_n3
+        if n3 > qntd_n3_real
+            planilha["A$linha"] = n3
+            planilha["D$linha"] = 0
+        else
+
+            planilha["A$linha"] = df_n3.nome_fantasia[n3]  # Índice j
+            planilha["D$linha"] = S_capacidade_CNES_n3[n3,eq]
+        end
+        planilha["B$linha"] = lista_equipes_n3[eq]
+        planilha["C$linha"] = value(fluxo_eq_n3[eq, n3])
+
+        linha += 1
+    end
+
+end
+
+
+
+tipo_custos = [
+"custo_logistico_n1", 
+"custo_fixo_novos_n1",
+"custo_fixo_existente_n1",
+"custo_times_novos_n1",
+"custo_variavel_n1", 
+"custo_logistico_n2",
+"custo_fixo_novos_n2",
+"custo_fixo_existente_n2",
+"custo_times_novos_n2",
+"custo_variavel_n2",
+"custo_logistico_n3",
+"custo_fixo_novos_n3",
+"custo_fixo_existente_n3",
+"custo_times_novos_n3",
+"custo_variavel_n3", 
+"custo_primario",
+"custo_secundario",
+"custo_terciario"
+]
+
+valores_custos = [
+    value(custo_logistico_n1), 
+    value(custo_fixo_novos_n1),
+    value(custo_fixo_existente_n1),
+    value(custo_times_novos_n1),
+    value(custo_variavel_n1), 
+    value(custo_logistico_n2),
+    value(custo_fixo_novos_n2),
+    value(custo_fixo_existente_n2),
+    value(custo_times_novos_n2),
+    value(custo_variavel_n2),
+    value(custo_logistico_n3),
+    value(custo_fixo_novos_n3),
+    value(custo_fixo_existente_n3),
+    value(custo_times_novos_n3),
+    value(custo_variavel_n3),
+    value(custo_fixo_novos_n1) + value(custo_fixo_existente_n1) + value(custo_times_novos_n1) + value(custo_variavel_n1), 
+    value(custo_fixo_novos_n2) + value(custo_fixo_existente_n2) + value(custo_times_novos_n2) + value(custo_variavel_n2), 
+    value(custo_fixo_novos_n3) + value(custo_fixo_existente_n3) + value(custo_times_novos_n3) + value(custo_variavel_n3), 
+]
+
+
+n_aba = 10
+XLSX.openxlsx(nome_arquivo, mode="rw") do arquivo
+    planilha = arquivo[n_aba]
+
+    # Cabeçalhos
+    planilha["A1"] = "Tipo_Custo"
+    planilha["B1"] = "Valor"
+
+    linha = 2 
+    for i in 1:18
+
+        planilha["A$linha"] = tipo_custos[i]
+        planilha["B$linha"] = valores_custos[i]
+
+
+        linha += 1
+    end
+
+end
+
+
+
+
+
+
 println("RELATIORIO DE CUSTOS")
 println(string("Custo Logistico: ", value(custo_logistico)))
 println(string("Custo Fixo Novas Instalacoes: ", value(custo_fixo_novo)))
@@ -478,8 +799,11 @@ println(string("Custo Times Novos: ", value(custo_times_novos)))
 println(string("Custo Variável: ", value(custo_variavel) * 0.2))
 
 println(string("Custo Total: ", value(objective_value(model))))
-println(string("Custo Total do Estado: ", value(objective_value(model) - value(custo_logistico))))
+println(string("Custo Total do Estado: ", value(value(custo_fixo_novo) + value(custo_fixo_existente) + value(custo_times_novos) + value(custo_variavel) * 0.2)))
 
+custo_anual = value((value(custo_fixo_novo) + value(custo_fixo_existente) + value(custo_times_novos) + value(custo_variavel) * 0.2) * 12 +  value(custo_fixo_novo))
+custo_anual_oficial_2024 = 500000000
+print(string("Diferença do custo oficial 2024: ", custo_anual - custo_anual_oficial_2024))
 
 println("=========================================================")
 println("Abertura de unidades N1")
@@ -616,5 +940,3 @@ for n in S_n3
     v = sum(value(X_n3[n2,n,p]) for n2 in S_n2, p in S_pacientes if n in dominio_atr_n3[n2])
     println(string("Facility ", n, " Valor ", v))
 end
-
-
