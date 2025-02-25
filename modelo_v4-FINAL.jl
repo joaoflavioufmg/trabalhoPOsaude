@@ -464,9 +464,22 @@ obj = objective_value(model)
 
 #Exportando resultados para excel!!
 
-nome_arquivo="resultados.xlsx"
-n_aba = 1
+nome_arquivo="resultados_criados.xlsx"
 
+
+XLSX.openxlsx(nome_arquivo, mode="w") do xf
+    # Criar múltiplas abas e adicionar dados
+    sheet_names = ["Aba1", "Aba2", "Aba3", "Aba4", "Aba5", "Aba6", "Aba7", "Aba8", "Aba9", "Aba10","Aba11" ]  # Nomes das abas desejadas
+
+    for sheet in sheet_names
+        XLSX.addsheet!(xf, sheet)  # Adiciona a aba
+        #XLSX.writetable!(xf[sheet], ["Coluna1", "Coluna2"], [(1, 2), (3, 4)])  # Exemplo de escrita
+    end
+end
+
+
+
+n_aba = 1
 XLSX.openxlsx(nome_arquivo, mode="rw") do arquivo
     planilha = arquivo[n_aba]
     
